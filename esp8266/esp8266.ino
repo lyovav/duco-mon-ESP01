@@ -20,7 +20,7 @@
 #include "SSD1306Wire.h"
 ESP8266WiFiMulti WiFiMulti;
 //SSD1306Wire display(0x3c, D1, D2);
-SSD1306Wire display(0x3c, 0, 1); // for ESP01
+SSD1306Wire display(0x3c, 0, 2); // for ESP01
 #define StaticJsonDocument<4000> doc;
 
 //-----------------------------------------------
